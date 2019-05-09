@@ -8,28 +8,50 @@
 
     <body>
         <header>
-            <h1>Matt O'Donnell</h1>
-            <nav>
-                <ul>
-                    <li><a href="index.html">About</a></li>
-                    <li><a href="portfolio.html">Portfolio</a></li>
-                    <li><a href="contact.html">Contact</a></li>
-                </ul>
-            </nav>
+            <div class="top-nav">
+                <h1>Matt O'Donnell</h1>
+                <nav>
+                    <ul>
+                        <li>
+                            <a class="nav-link" href="index.html">About</a>
+                        </li>
+                        <li>
+                            <a class="nav-link" href="portfolio.html">Portfolio</a>
+                        </li>
+                        <li>
+                            <a class="nav-link" href="contact.html">Contact</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
         </header>
 
         <main>
             <h2>Contact</h2>
             <form>
-                <fieldset>
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" placeholder="John Smith">
+                <label for="email">Email</label>
+                <input type="text" id="email" name="email" placeholder="you@example.com">
+                <label for="message">Message</label>
+                <textarea id="message" name="message" rows="10"></textarea>
+                <input type="submit" value="Submit">
+
+                <!-- <div class="form-item">
                     <label for="name">Name</label>
                     <input type="text" id="name" name="name" placeholder="John Smith">
+                </div>
+                <div class="form-item">
                     <label for="email">Email</label>
                     <input type="text" id="email" name="email" placeholder="you@example.com">
+                </div>
+                <div class="form-item">
                     <label for="message">Message</label>
-                    <textarea id="message" name="message"></textarea>
+                    <textarea id="message" name="message" rows="10"></textarea>
+                </div>
+                <div class="form-button">
                     <input type="submit" value="Submit">
-                </fieldset>
+                </div> -->
             </form>
         </main>
 
