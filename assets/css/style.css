@@ -1,3 +1,7 @@
+h1, h2, h3 {
+    font-family: 'Georgia', Times, serif;
+}
+
 /* header */
 
 header {
@@ -12,7 +16,6 @@ header {
 }
 
 h1 {
-    font-family: 'Georgia', Times, serif;
     background-color: #4aaaa5;
     color: #fff;
     padding: 30px;
@@ -74,7 +77,6 @@ main {
 }
 
 h2 {
-    font-family: 'Georgia', Times, serif;
     color: #4aaaa5;
     padding-bottom: 30px;
     border-bottom: 2px solid #ccc;
@@ -133,6 +135,11 @@ input[type=submit]:hover {
     margin: 15px;
 }
 
+.port-img img {
+    width: 200px;
+    height: 200px;
+}
+
 h3 {
     position: absolute;
     text-align: center;
@@ -142,6 +149,11 @@ h3 {
     color: #fff;
     margin: 0px;
     padding: 15px 0px;
+}
+
+h3:hover {
+    background-color: #fff;
+    color: #4aaaa5;
 }
 
 /* footer */
